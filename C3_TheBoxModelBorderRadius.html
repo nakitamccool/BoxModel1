@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Box Model</title>
+	<style type="text/css">
+		.box{
+			width: 300px;
+			height: 300px;
+			background-color: #81bbc9;
+			margin: 50px;
+			border: 10px solid #000;
+		}
+		#box1{
+			border-style: dashed;
+		}
+		#box2{
+			border-style: dashed;
+			border-radius: 50%;
+		}
+		#box4{
+			border-width:30px;
+
+		}
+		#box5{
+			background-color: white;
+			border-width:30px;
+
+		}
+		#box6{
+			border-width:50px;
+			border-radius: 50%;
+			border-color: red;
+			background-color: white;
+		}
+		#box7{
+			background-color: yellow;
+			border-top-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+			border-top-right-radius: 70%;
+			border-bottom-left-radius: 70%;
+			border-color: white;
+		}
+	</style>
+</head>
+<body>
+	<div id="box1" class="box"></div>
+	<div id="box2" class="box"></div>
+	<div id="box3" class="box"></div>
+	<div id="box4" class="box"></div>
+	<div id="box5" class="box"></div>
+	<div id="box6" class="box"></div>
+	<div id="box7" class="box"></div>
+</body>
+</html>
